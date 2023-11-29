@@ -22,15 +22,50 @@ namespace ProjetoEmTresCammadas.Pizzaria.RegraDeNegocio
         public Pizza1()
         {    
         }
-        public Pizza1 CriarPizza(string sabor, TamanhoDePizza tamanhoDePizza, string descircao = "")
+
+        public string DefinirSabor(string sabor)
         {
-            Sabor = sabor;
-            TamanhoDePizza = tamanhoDePizza;
-            if (string.IsNullOrEmpty(descircao))
+            if (sabor == "C")
             {
-                Descricao = descircao;
+                Sabor = "Calabresa";
             }
-            return this;
+            else if(sabor == "F") 
+            {
+                Sabor = "Frango";
+            }
+            return Sabor;
+        }
+
+        public string DefinirTamanho(string tamanho)
+        {
+            switch(tamanho) 
+            {
+                case "P":
+                {
+                        TamanhoDePizza = TamanhoDePizza.Pequena;
+                        break;
+                }
+                case "M":
+                {
+                        TamanhoDePizza = TamanhoDePizza.Media;
+                        break;
+                }
+                case "G":
+                {
+                        TamanhoDePizza = TamanhoDePizza.Grande;
+                        break;
+                }
+                default: 
+                {
+                        throw new Exception("Tamanho não definido");   
+                }
+            }
+            return Enum.GetName(TamanhoDePizza);
+        }
+
+        public override string ToString()
+        {
+            return $"Sua Pizza é de sabor {Sabor} e tamanho {TamanhoDePizza}";
         }
     }
 }

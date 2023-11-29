@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoEmtresCamadasPizzari
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoEmTresCammadas.Pizzaria.RegraDeNegocio", "ProjetoEmTresCammadas.Pizzaria.ReagraDeNegocio\ProjetoEmTresCammadas.Pizzaria.RegraDeNegocio.csproj", "{D4205672-66F8-46B0-B177-D496296A6291}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoEmTresCamadas.Pizzaria.DAO", "ProjetoEmTresCamadas.Pizzaria.DAO\ProjetoEmTresCamadas.Pizzaria.DAO.csproj", "{3A8737E1-F85B-405A-B267-9367E9D4FCE1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{D4205672-66F8-46B0-B177-D496296A6291}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4205672-66F8-46B0-B177-D496296A6291}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4205672-66F8-46B0-B177-D496296A6291}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A8737E1-F85B-405A-B267-9367E9D4FCE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A8737E1-F85B-405A-B267-9367E9D4FCE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A8737E1-F85B-405A-B267-9367E9D4FCE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A8737E1-F85B-405A-B267-9367E9D4FCE1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -34,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{6F8C57C1-59D6-4817-9DCA-00A9B66B7126} = {7BC931F5-F71E-4651-82DA-6462DEF9DB76}
 		{D4205672-66F8-46B0-B177-D496296A6291} = {02E9E8D8-164E-46A2-8CB4-9B28B711FD7F}
+		{3A8737E1-F85B-405A-B267-9367E9D4FCE1} = {049BABCD-81D7-4C17-817A-CD7C38E1B366}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CBE532B2-01D0-4E2E-9586-D7CE411C5221}

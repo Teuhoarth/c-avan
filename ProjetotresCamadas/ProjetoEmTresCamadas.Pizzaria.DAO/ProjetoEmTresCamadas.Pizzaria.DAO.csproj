@@ -6,4 +6,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.2" />
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProjetoEmTresCammadas.Pizzaria.ReagraDeNegocio\ProjetoEmTresCammadas.Pizzaria.RegraDeNegocio.csproj" />
+  </ItemGroup>
+
 </Project>

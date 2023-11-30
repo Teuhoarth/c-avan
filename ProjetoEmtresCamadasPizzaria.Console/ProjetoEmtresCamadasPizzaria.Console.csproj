@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ProjetotresCamadas\ProjetoEmTresCamadas.Pizzaria.DAO\ProjetoEmTresCamadas.Pizzaria.DAO.csproj" />
     <ProjectReference Include="..\ProjetotresCamadas\ProjetoEmTresCammadas.Pizzaria.ReagraDeNegocio\ProjetoEmTresCammadas.Pizzaria.RegraDeNegocio.csproj" />
   </ItemGroup>
 

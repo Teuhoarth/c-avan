@@ -9,11 +9,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Camada de Negocio", "2.Ca
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Camada de Acesso a dados", "3.Camada de Acesso a dados", "{049BABCD-81D7-4C17-817A-CD7C38E1B366}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoEmtresCamadasPizzaria.Console", "..\ProjetoEmtresCamadasPizzaria.Console\ProjetoEmtresCamadasPizzaria.Console.csproj", "{6F8C57C1-59D6-4817-9DCA-00A9B66B7126}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjetoEmtresCamadasPizzaria.Console", "..\ProjetoEmtresCamadasPizzaria.Console\ProjetoEmtresCamadasPizzaria.Console.csproj", "{6F8C57C1-59D6-4817-9DCA-00A9B66B7126}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoEmTresCammadas.Pizzaria.RegraDeNegocio", "ProjetoEmTresCammadas.Pizzaria.ReagraDeNegocio\ProjetoEmTresCammadas.Pizzaria.RegraDeNegocio.csproj", "{D4205672-66F8-46B0-B177-D496296A6291}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjetoEmTresCammadas.Pizzaria.RegraDeNegocio", "ProjetoEmTresCammadas.Pizzaria.ReagraDeNegocio\ProjetoEmTresCammadas.Pizzaria.RegraDeNegocio.csproj", "{D4205672-66F8-46B0-B177-D496296A6291}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoEmTresCamadas.Pizzaria.DAO", "ProjetoEmTresCamadas.Pizzaria.DAO\ProjetoEmTresCamadas.Pizzaria.DAO.csproj", "{3A8737E1-F85B-405A-B267-9367E9D4FCE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjetoEmTresCamadas.Pizzaria.DAO", "ProjetoEmTresCamadas.Pizzaria.DAO\ProjetoEmTresCamadas.Pizzaria.DAO.csproj", "{3A8737E1-F85B-405A-B267-9367E9D4FCE1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Atividade 04;12", "Atividade 04;12", "{2F2822F1-59FA-4FD3-85D7-E41DE8500A6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atividade.1", "Atividade.1\Atividade.1.csproj", "{55001559-D7F7-4EFD-9F30-860DB7E57C75}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,10 @@ Global
 		{3A8737E1-F85B-405A-B267-9367E9D4FCE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A8737E1-F85B-405A-B267-9367E9D4FCE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A8737E1-F85B-405A-B267-9367E9D4FCE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55001559-D7F7-4EFD-9F30-860DB7E57C75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55001559-D7F7-4EFD-9F30-860DB7E57C75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55001559-D7F7-4EFD-9F30-860DB7E57C75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55001559-D7F7-4EFD-9F30-860DB7E57C75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +49,7 @@ Global
 		{6F8C57C1-59D6-4817-9DCA-00A9B66B7126} = {7BC931F5-F71E-4651-82DA-6462DEF9DB76}
 		{D4205672-66F8-46B0-B177-D496296A6291} = {02E9E8D8-164E-46A2-8CB4-9B28B711FD7F}
 		{3A8737E1-F85B-405A-B267-9367E9D4FCE1} = {049BABCD-81D7-4C17-817A-CD7C38E1B366}
+		{55001559-D7F7-4EFD-9F30-860DB7E57C75} = {2F2822F1-59FA-4FD3-85D7-E41DE8500A6C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CBE532B2-01D0-4E2E-9586-D7CE411C5221}

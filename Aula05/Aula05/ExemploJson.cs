@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
-/*
+
 namespace Aula04
 {
     public class WeatherForecast
@@ -28,4 +28,3 @@ namespace Aula04
         }
     }
 }
-*/

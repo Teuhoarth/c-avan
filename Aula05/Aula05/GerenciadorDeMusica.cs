@@ -1,14 +1,8 @@
-﻿/*
-using System;
-using System.Collections;
+﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.Intrinsics.X86;
-using System.Text;
+using System.IO;
 using System.Text.Json;
-using System.Threading.Tasks;
-*/
-/*
+
 namespace Aula05
 {
 
@@ -166,12 +160,3 @@ namespace Aula05
         }
     }
 }
-*/
-
-
-
-
-
-
-
-

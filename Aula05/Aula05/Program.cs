@@ -1,4 +1,4 @@
-﻿/*
+﻿
 using Aula04;
 
 ExemploJson exemploJson = new ExemploJson();
@@ -17,4 +17,3 @@ string conteudoDeserializado = File.ReadAllText("arquivo.json");
 var objetoWeatherForescast = exemploJson.Deserializar<WeatherForecast>(conteudoDeserializado);
 
 Console.ReadKey();
-*/

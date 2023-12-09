@@ -1,10 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.Intrinsics.X86;
-using System.Text;
-using System.Threading.Tasks;
-using static System.Runtime.InteropServices.JavaScript.JSType;
+
 
 namespace Aula05
 {
@@ -27,6 +24,12 @@ namespace Aula05
     //Mocha: 81
     public class HoraDoCafe
     {
+        public static void Main()
+        {
+            HoraDoCafe programa = new HoraDoCafe();
+            programa.Executa();
+        }
+
         public void Executa()
         {
             int discount = Convert.ToInt32(Console.ReadLine());

@@ -1,4 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿/*
+// See https://aka.ms/new-console-template for more information
 using Atividade8_________12_______12;
 
 AprendendoDelegate aprendendoDelegate = new AprendendoDelegate();
@@ -16,3 +17,4 @@ CalculoInss calculoInss = new CalculoInss();
 calculoInss.Executar();
 
 Console.ReadKey();
+*/
